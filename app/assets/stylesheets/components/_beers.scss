@@ -1,0 +1,64 @@
+.beers {
+  text-align: center;
+  height: calc(100vh - 250px);
+  display: flex;
+  vertical-align: center;
+  padding-top: 20px;
+  padding-bottom: 209px;
+
+}
+
+.blonde {
+  height: 200px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  border-radius: 5px 5px 0px 0px;
+  background-color: $blonde_background;
+  color: $black;
+  display:flex;
+  justify-content: center;
+
+
+}
+
+.blanche {
+  height: 200px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  border-radius: 5px 5px 0px 0px;
+  background-color: $blanche_background;
+  color: $black;
+  display:flex;
+  justify-content: center;
+}
+
+.rousse {
+  height: 200px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  border-radius: 5px 5px 0px 0px;
+  background-color: $rousse_background;
+  color: $black;
+  display:flex;
+  justify-content: center;
+}
+
+.ambree {
+  height: 200px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  border-radius: 5px 5px 0px 0px;
+  background-color: $ambree_background;
+  color: $black;
+  display:flex;
+  justify-content: center;
+}
+
+.beer-footer {
+  background-color: white;
+  height: 50px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  border-radius: 0px 0px 5px 5px;
+  color: black;
+  font-family: $body-font;
+  display:flex;
+  justify-content: space-around;
+  font-weight: lighter;
+  vertical-align: middle;
+}
